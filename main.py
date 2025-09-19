@@ -1,6 +1,58 @@
 import random 
+words_list = [
+    "apple",
+    "banana",
+    "grape",
+    "orange",
+    "mango",
+    "pear",
+    "peach",
+    "cherry",
+    "dog",
+    "cat",
+    "lion",
+    "tiger",
+    "horse",
+    "zebra",
+    "eagle",
+    "shark",
+    "whale",
+    "table",
+    "chair",
+    "pencil",
+    "school",
+    "house",
+    "garden",
+    "river",
+    "mountain",
+    "ocean",
+    "cloud",
+    "rain",
+    "snow",
+    "star",
+    "moon",
+    "sun",
+    "earth",
+    "book",
+    "music",
+    "dance",
+    "happy",
+    "smile",
+    "green",
+    "blue",
+    "black",
+    "white",
+    "gold",
+    "king",
+    "queen",
+    "friend",
+    "family",
+    "game",
+    "train",
+    "plane",
+    "truck"
+]
 
-word_list=['apple','microsoft','google','nvdia']
 
 # Hangman stages list
 hangman_stages = [
@@ -112,4 +164,5 @@ while not Game_over:
         print("YOU WON")   
 
     print(hangman_stages[chance])         
+
 
